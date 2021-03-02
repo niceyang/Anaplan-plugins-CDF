@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "spec-version": "1.4"
+  },
+  "configuration-groups": [
+    {
+      "label": "Anaplan Export Configuration",
+      "properties": [
+        {
+          "widget-type": "textbox",
+          "label": "Service Location",
+          "name": "serviceLocation",
+          "widget-attributes": {
+            "width": "large",
+            "default": "https://google.anaplan.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Auth Service Location",
+          "name": "authServiceLocation",
+          "widget-attributes": {
+            "width": "large",
+            "default": "https://google.anaplan.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "User Name",
+          "name": "userName",
+          "widget-attributes": {
+            "width": "large",
+            "default": "finworks_anaplan_role_account_dev@google.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Password",
+          "name": "password",
+          "widget-attributes": {
+            "width": "large",
+            "default": "/!bKJ.a/MDQv16CI%uT+"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Workspace Id",
+          "name": "workspaceId",
+          "widget-attributes": {
+            "width": "large",
+            "default": "8a81b01068d4b6820169da807d121d00"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Model Id",
+          "name": "modelId",
+          "widget-attributes": {
+            "width": "large",
+            "default": "6387EC16A2104DECA9F56AB3C9BD542D"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Server File Name",
+          "name": "fileName",
+          "widget-attributes": {
+            "width": "large",
+            "default": "Export: BPC - Annual Plan.csv"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "GCP Project ID",
+          "name": "projectId",
+          "widget-attributes": {
+            "width": "large",
+            "default": "google.com:planning-works-dev01"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "GCS Bucket For Download File Buffer",
+          "name": "gcsBucket",
+          "widget-attributes": {
+            "width": "large",
+            "default": "data_fusion_pw_test"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "File archive name in GCS bucket",
+          "name": "archiveName",
+          "widget-attributes": {
+            "width": "large",
+            "default": "BPC-Annual-Plan.csv"
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": [
+  ]
+}
