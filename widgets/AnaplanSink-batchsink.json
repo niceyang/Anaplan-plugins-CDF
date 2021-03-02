@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "spec-version": "1.4"
+  },
+  "configuration-groups": [
+    {
+      "label": "Anaplan Sink Configuration",
+      "properties": [
+        {
+          "widget-type": "textbox",
+          "label": "Service Location",
+          "name": "serviceLocation",
+          "widget-attributes": {
+            "width": "large",
+            "default": "https://google.anaplan.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Auth Service Location",
+          "name": "authServiceLocation",
+          "widget-attributes": {
+            "width": "large",
+            "default": "https://google.anaplan.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "User Name",
+          "name": "userName",
+          "widget-attributes": {
+            "width": "large",
+            "default": "finworks_anaplan_role_account_dev@google.com"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Password",
+          "name": "password",
+          "widget-attributes": {
+            "width": "large",
+            "default": "/!bKJ.a/MDQv16CI%uT+"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Workspace Id",
+          "name": "workspaceId",
+          "widget-attributes": {
+            "width": "large",
+            "default": "8a81b01168d4b79b0169da7d8575195e"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Model Id",
+          "name": "modelId",
+          "widget-attributes": {
+            "width": "large",
+            "default": "F8E1838232FA439D928F05764E763232"
+          }
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Server File Name",
+          "name": "fileName",
+          "widget-attributes": {
+            "width": "large",
+            "default": "anaplan_sap_internal_orders.csv"
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": [
+  ]
+}
