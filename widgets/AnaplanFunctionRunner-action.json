@@ -30,7 +30,7 @@
           "name": "userName",
           "widget-attributes": {
             "width": "large",
-            "default": "finworks_anaplan_role_account_dev@google.com"
+            "default": ""
           }
         },
         {
@@ -39,7 +39,7 @@
           "name": "password",
           "widget-attributes": {
             "width": "large",
-            "default": "/!bKJ.a/MDQv16CI%uT+"
+            "default": ""
           }
         },
         {
